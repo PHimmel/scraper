@@ -11,6 +11,7 @@ from scraper.http import HttpSession
 from scraper.soup import CreateSoup
 from scraper.process import ArticleProcessing
 from scraper.persist import ReturnArticleData
+from scraper.main_process import MainProcess
 
 class Search(object):
 
@@ -133,7 +134,7 @@ this method 1. separates the news articles' title info from the page
             print("No articles found matching the search criteria.\n")
 
             # begins process all over again
-            return Main().run_main_method
+            return MainProcess().run_main_method
 
         # iterates over each title in the the list of matches
         for full_data in self.matched_titles:
