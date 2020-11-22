@@ -8,6 +8,9 @@ import time
 from collections import Counter
 from nltk import tokenize
 from scraper.http import HttpSession
+from scraper.soup import CreateSoup
+from scraper.process import ArticleProcessing
+from scraper.persist import ReturnArticleData
 
 class Search(object):
 
