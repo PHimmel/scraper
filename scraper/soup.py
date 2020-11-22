@@ -1,5 +1,3 @@
-from bs4 import BeautifulSoup as soup
-import urllib
 import urllib.request
 import urllib.error
 import re
