@@ -16,5 +16,5 @@ To run this project, install it locally using pip3.7:
 ```
 pip3.7 install bs4
 pip3.7 install textblob
-python 3.7 main_scraper.py
+python3.7 main_scraper.py
 ```
