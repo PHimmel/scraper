@@ -18,3 +18,9 @@ pip3.7 install bs4
 pip3.7 install textblob
 python3.7 main_scraper.py
 ```
+
+```
+python3.7
+import nltk
+nltk.download('punkt')
+```
