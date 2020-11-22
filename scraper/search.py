@@ -7,6 +7,7 @@ from textblob import TextBlob as blob
 import time
 from collections import Counter
 from nltk import tokenize
+from scraper.http import HttpSession
 
 class Search(object):
 

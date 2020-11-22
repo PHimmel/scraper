@@ -44,8 +44,8 @@ import time
 from collections import Counter
 from nltk import tokenize
 import scraper.articles
-from scraper.articles.search import Search
-from scraper.articles.search import NewsOutlets
+from scraper.search import Search
+from scraper.search import NewsOutlets
 
 
 """

@@ -1,3 +1,13 @@
+from bs4 import BeautifulSoup as soup
+import urllib
+import urllib.request
+import urllib.error
+import re
+from textblob import TextBlob as blob
+import time
+from collections import Counter
+from nltk import tokenize
+
 """
 ----------------------------------------------------------------------------------------------------------------------
 Creates the HTTP session that is used:
