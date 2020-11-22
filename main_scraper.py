@@ -33,6 +33,7 @@ textblob -> a tool for text analysis
 
 """
 
+#from . import articles
 from bs4 import BeautifulSoup as soup
 import urllib
 import urllib.request
@@ -42,6 +43,8 @@ from textblob import TextBlob as blob
 import time
 from collections import Counter
 from nltk import tokenize
+import scraper.articles
+from scraper.articles.search import Search
 
 
 """
