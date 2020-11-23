@@ -1,5 +1,5 @@
-from scraper.search import Search
-from scraper.search import NewsOutlets
+#from scraper.search import Search
+#from scraper.search import NewsOutlets
 
 
 """
@@ -28,7 +28,8 @@ class MainProcess:
     """
 
     def run_main_method(self):
-
+        from scraper.search import Search
+        from scraper.search import NewsOutlets
         while True:
 
             try:
