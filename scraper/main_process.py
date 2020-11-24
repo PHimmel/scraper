@@ -1,6 +1,3 @@
-#from scraper.search import Search
-#from scraper.search import NewsOutlets
-
 
 """
 ----------------------------------------------------------------------------------------------------------------------

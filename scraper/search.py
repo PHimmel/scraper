@@ -1,17 +1,9 @@
 from bs4 import BeautifulSoup as soup
-import urllib
-import urllib.request
-import urllib.error
 import re
-from textblob import TextBlob as blob
-import time
-from collections import Counter
-from nltk import tokenize
 from scraper.http import HttpSession
 from scraper.soup import CreateSoup
 from scraper.process import ArticleProcessing
 from scraper.persist import ReturnArticleData
-from scraper.main_process import MainProcess
 
 class Search(object):
 
