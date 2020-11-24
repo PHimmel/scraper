@@ -4,6 +4,7 @@ from scraper.http import HttpSession
 from scraper.soup import CreateSoup
 from scraper.process import ArticleProcessing
 from scraper.persist import ReturnArticleData
+from scraper.main_process import MainProcess
 
 class Search(object):
 
