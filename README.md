@@ -4,7 +4,7 @@
 * [Setup](#setup)
 
 ## General info
-for all things scraping related
+To extract the leading headlines from News Sources. Currently set only for Yahoo News.
 
 ## Technologies
 Project is created with:
@@ -24,3 +24,6 @@ python3.7
 import nltk
 nltk.download('punkt')
 ```
+
+## Usage
+
