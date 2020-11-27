@@ -20,19 +20,6 @@ as analysis of the aforementioned documents.
 
 """
 
-"""
-Required dependencies:
-
-urllib/selenium -> to establish HTTP sessions with the source sites
-
-bs4/re -> for parsing HTML documents to locate the searched input
-
-time -> to delay program operations (i.e. output)
-
-textblob -> a tool for text analysis
-
-"""
-
 from scraper.main_process import MainProcess
 
 
@@ -43,16 +30,19 @@ this ***static function*** prints a program introduction to the user specifying 
 3. the ultimate output of the program
 it is only used once upon the initialization of the program
 """
+
+
 def print_program_introduction():
 
     print('''
-I will parse the front page of Yahoo News to look to find your search keyword/s.
-Then will convert it in tokens and analyze the significance of them.
-Finally, I shall return:
+This program will parse the front page of Yahoo News to find your search keyword/s.
+Then convert it in tokens and analyze the significance of them.
+The output is:
          1. the basic article information
          2. The corresponding sentiment values
          3. The tokens that comprise the article
          ''')
+
 
 """
 ----------------------------------------------------------------------------------------------------------------------
